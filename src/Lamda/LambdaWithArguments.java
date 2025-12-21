@@ -16,7 +16,7 @@ class WithOutLambda implements Addable{
         System.out.println("Sum using without lambda: " + addable.add(10, 20));
     }
 }
-public class LambdaWithArguements {
+public class LambdaWithArguments {
     public static void main(String[] args) {
 
         Addable add=(int a,int b)->{
